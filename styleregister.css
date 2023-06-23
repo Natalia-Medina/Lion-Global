@@ -1,0 +1,48 @@
+body {
+  background-image: url('Torres-de-cristal.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.contenedor {
+  width: 400px;
+  margin: 0 auto;
+  background-color: rgba(4, 22, 47, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+h2 {
+  color: #FFF;
+}
+
+label {
+  display: block;
+  text-align: left;
+  color: #fff;
+  margin-top: 10px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  width: 150px;
+  padding: 10px;
+  background-color: #bf9b51;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+p {
+  color: #FFF;
+  margin-top: 10px;
+}
