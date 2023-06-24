@@ -284,7 +284,7 @@ body {
     nav ul {
       display: none;
       flex-direction: column;
-      align-items: flex-end;
+      align-items: center; /* Centrar verticalmente */
       padding: 10px;
       background-color: #04162f;
       width: 30%;
@@ -293,10 +293,12 @@ body {
       right: 0; /* Alinear el menú hamburguesa a la derecha */
       z-index: 1; /* Asegurar que el menú esté por encima del contenido */
     }
-  
+    
     nav ul li {
       display: block;
       margin: 10px 0;
+      font-size: 10px; /* Tamaño de letra reducido */
+      text-align: center; /* Texto centrado */
     }
    
     input[type="checkbox"]:checked ~ ul {
