@@ -170,6 +170,7 @@ nav ul li a {
   .mision-vision {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
 
   .container-mv {
